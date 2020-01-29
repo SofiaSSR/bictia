@@ -1,0 +1,27 @@
+body {
+  background-color: black; }
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10%;
+  border-color: white;
+  width: 40%;
+  height: 40%; }
+
+div {
+  padding: 0.5rem;
+  margin: -2px;
+  width: 150px;
+  height: 150px; }
+  div.a {
+    border-right: 2px solid blanchedalmond;
+    background-color: red; }
+  div.b {
+    border-bottom: 2px solid blanchedalmond;
+    background-color: blue; }
+  div.c {
+    border-left: 2px solid blanchedalmond;
+    background-color: green; }
+
+/*# sourceMappingURL=style.css.map */
