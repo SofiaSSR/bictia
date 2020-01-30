@@ -1,0 +1,32 @@
+#start {
+  margin: 5rem 2% 2rem 6%;
+  font-size: 27px;
+  text-align: left;
+  text-justify: distribute; }
+  #start > .mini {
+    color: #8f8f8f;
+    font-size: small; }
+
+body {
+  font-family: 'PT Serif',serif;
+  color: #313131;
+  background-color: #fff;
+  font-size: 14px;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+#content > p {
+  font-size: 5;
+  margin-inline-start: 2;
+  margin-block-start: 2; }
+
+.cabeza {
+  position: fixed;
+  top: 0px;
+  transition: width 1.4s; }
+  .cabeza img:hover {
+    width: 15px;
+    transition-property: rotate(5deg); }
+
+/*# sourceMappingURL=noticiaconestilo.css.map */
