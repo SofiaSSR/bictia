@@ -1,33 +1,56 @@
-#start{
+#all{
     margin: 5rem 2% 2rem 6%;
     font-size: 27px;
  
  text-align: left;
  text-justify: distribute;
- 
-
-    >.mini{
-        color: rgb(143, 143, 143); 
-        font-size: small;
-
-    }
-}
-body{
-    font-family: 'PT Serif',serif;
+ font-family: 'PT Serif',serif;
     color: #313131;
     background-color: #fff;
-    font-size: 14px;
+    font-size: 25px;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-}
-#content{
-    >p{
- font-size: abs($number: 5);
-        margin-inline-start: abs($number: 2);
-        margin-block-start: abs($number: 2);
-    }
+ #start{
+      position: block ;
+     >.mini{
+        color: rgb(143, 143, 143); 
+        font-size: small;
+        
 
+     }
+      img{
+        width: 95%;
+     }
+    
+}
+   #content{
+        display: flex;
+        flex-direction: row;
+        margin:1rem 5rem 1rem 0rem;
+
+
+      .cl1{
+           p{
+             font-size: 0.5rem;
+             margin-inline-start: abs($number: 2);
+             margin-block-start: abs($number: 2);
+
+            []
+            }
+      .cl2{
+         border: 1px solid gray;
+         width: 10rem;
+         transition-duration: 1.5s;
+
+         &:hover{
+        transition: width 11rem ;
+        
+         }
+
+}
+}
+}
 }
 .cabeza{
      position: fixed;
